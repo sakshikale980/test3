@@ -1,0 +1,17 @@
+a.nav-link:hover span {
+  color: #736551;
+}
+.container-fluid {
+  width: 300px;
+  float: left;
+  height: 100vh;
+  background-color: #1f2124;
+  position: fixed;
+  top: 80px;
+  overflow-y: scroll;
+  height:85vh;
+}
+.nav-link .fa {
+  font-size: 22px; 
+}
+

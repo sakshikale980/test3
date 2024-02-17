@@ -1,0 +1,92 @@
+.banner {
+  width: 1095px;
+  margin-top: 90px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+
+.banner .start_img {
+  position: relative;
+  top: 200px;
+}
+
+.products .product img {
+  width: 345px;
+  height: 300px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  
+}
+.products .product img:hover {
+  transform: scale(1.1); 
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+}
+.product {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+}
+
+.product {
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  display: inline-block; 
+  margin-right: 20px;
+}
+
+.product > button {
+  display: flex;
+  margin-top: 20px;
+  background-color: #caa296;
+  border: 4px solid;
+  border-color: #a88134 #9c7e31 #846a29;
+  width: 150px;
+  min-height: 30px;
+  margin: 20px 0 20px 100px;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.product1 img {
+  width: 1095px;
+  height: 325px;
+  border-radius: 20px;
+}
+
+.product1 > button {
+  display: flex;
+  margin-top: 20px;
+  background-color: #caa296;
+  border: 4px solid;
+  border-color: #a88134 #9c7e31 #846a29;
+  width: 150px;
+  min-height: 30px;
+  margin: 20px 0 20px 470px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product p {
+  color: lightslategray;
+}
+.product1 p {
+  color: lightslategray;
+}
+.product > button :hover {
+  background : transparent;
+}
